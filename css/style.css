@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -70,5 +74,33 @@ button {
 }
 .sign-up:hover {
     background-color: #0dc0ec;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+
+}
+
+.info img {
+    border: #3882f6 solid;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 
 }

@@ -1,5 +1,7 @@
 body {
     font-family: Roboto, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -92,7 +94,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 20px;
+    margin: 30px;
     padding-block-end: 50px;
 
 }
@@ -106,6 +108,7 @@ h2 {
 
 }
 .info .text {
+    font-size: 20px;
     text-align: center;
     font-weight: 400;
 }
@@ -131,7 +134,36 @@ h2 {
 .quote b {
     text-align: center;
     font-weight: 700;
+    font-style: italic;
     font-size: 28px;
     color: #1f2937;
 
+}
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 8px;
+    background-color: #3882f6;
+    width: 800px;
+    height: 150px;
+    object-fit: cover;
+    margin: 100px auto;
+}
+
+.container-bottom p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: #1f2937;
 }
